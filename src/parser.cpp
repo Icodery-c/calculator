@@ -7,15 +7,15 @@ void parse(int argc, char** argv, Data* data) {
 
   int opt;
 
-  while ((opt = getopt(argc, argv, "num1:num2:o:h")) != -1) {
+  while ((opt = getopt(argc, argv, "a:b:o:h")) != -1) {
 
     switch (opt) {
 
-      case 'num1':
+      case 'a':
         data->num1 = atoi(optarg);
         break;
 
-      case 'num2':
+      case 'b':
         data->num2 = atoi(optarg);
         break;
 
