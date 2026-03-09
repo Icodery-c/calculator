@@ -12,6 +12,13 @@ void run(int argc, char** argv) {
 
   parse(argc, argv, &data);
 
+  if (data.op == 'h')
+    {
+        help();
+        return;
+    }
+
+
   if (!error) { error = calculate(&data); }
 
   print(&data, error);

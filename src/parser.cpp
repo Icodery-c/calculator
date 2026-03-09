@@ -23,6 +23,10 @@ void parse(int argc, char** argv, Data* data) {
         data->op = optarg[0];
         break;
 
+      case 'h':
+        data->op = 'h';
+        break;
+
     }
   }
 
