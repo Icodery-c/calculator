@@ -7,7 +7,7 @@ include(FetchContent)
 find_program(CLANG_TIDY clang-tidy)
 
 if(CLANG_TIDY)
-    set(CMAKE_CXX_CLAND_TIDY ${CLANG_TIDY})
+    set(CMAKE_CXX_CLANG_TIDY ${CLANG_TIDY})
 endif()
 
 find_program(CLANG_FORMAT clang-format)

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ilnur-islamov/Calculator/calculator/build/_deps/mathlib-subbuild/CMakeFiles/mathlib-populate"
+		},
+		{
+			"file" : "/home/ilnur-islamov/Calculator/calculator/build/_deps/mathlib-subbuild/CMakeFiles/mathlib-populate.rule"
+		},
+		{
+			"file" : "/home/ilnur-islamov/Calculator/calculator/build/_deps/mathlib-subbuild/CMakeFiles/mathlib-populate-complete.rule"
+		},
+		{
+			"file" : "/home/ilnur-islamov/Calculator/calculator/build/_deps/mathlib-subbuild/mathlib-populate-prefix/src/mathlib-populate-stamp/mathlib-populate-build.rule"
+		},
+		{
+			"file" : "/home/ilnur-islamov/Calculator/calculator/build/_deps/mathlib-subbuild/mathlib-populate-prefix/src/mathlib-populate-stamp/mathlib-populate-configure.rule"
+		},
+		{
+			"file" : "/home/ilnur-islamov/Calculator/calculator/build/_deps/mathlib-subbuild/mathlib-populate-prefix/src/mathlib-populate-stamp/mathlib-populate-download.rule"
+		},
+		{
+			"file" : "/home/ilnur-islamov/Calculator/calculator/build/_deps/mathlib-subbuild/mathlib-populate-prefix/src/mathlib-populate-stamp/mathlib-populate-install.rule"
+		},
+		{
+			"file" : "/home/ilnur-islamov/Calculator/calculator/build/_deps/mathlib-subbuild/mathlib-populate-prefix/src/mathlib-populate-stamp/mathlib-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/ilnur-islamov/Calculator/calculator/build/_deps/mathlib-subbuild/mathlib-populate-prefix/src/mathlib-populate-stamp/mathlib-populate-patch.rule"
+		},
+		{
+			"file" : "/home/ilnur-islamov/Calculator/calculator/build/_deps/mathlib-subbuild/mathlib-populate-prefix/src/mathlib-populate-stamp/mathlib-populate-test.rule"
+		},
+		{
+			"file" : "/home/ilnur-islamov/Calculator/calculator/build/_deps/mathlib-subbuild/mathlib-populate-prefix/src/mathlib-populate-stamp/mathlib-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"mathlib-populate"
+		],
+		"name" : "mathlib-populate"
+	}
+}

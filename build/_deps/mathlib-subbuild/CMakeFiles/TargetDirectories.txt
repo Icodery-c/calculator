@@ -1,0 +1,3 @@
+/home/ilnur-islamov/Calculator/calculator/build/_deps/mathlib-subbuild/CMakeFiles/mathlib-populate.dir
+/home/ilnur-islamov/Calculator/calculator/build/_deps/mathlib-subbuild/CMakeFiles/edit_cache.dir
+/home/ilnur-islamov/Calculator/calculator/build/_deps/mathlib-subbuild/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,14 @@
+/home/ilnur-islamov/Calculator/calculator/build/CMakeFiles/format.dir
+/home/ilnur-islamov/Calculator/calculator/build/CMakeFiles/calculator.dir
+/home/ilnur-islamov/Calculator/calculator/build/CMakeFiles/edit_cache.dir
+/home/ilnur-islamov/Calculator/calculator/build/CMakeFiles/rebuild_cache.dir
+/home/ilnur-islamov/Calculator/calculator/build/CMakeFiles/list_install_components.dir
+/home/ilnur-islamov/Calculator/calculator/build/CMakeFiles/install.dir
+/home/ilnur-islamov/Calculator/calculator/build/CMakeFiles/install/local.dir
+/home/ilnur-islamov/Calculator/calculator/build/CMakeFiles/install/strip.dir
+/home/ilnur-islamov/Calculator/calculator/build/_deps/mathlib-build/CMakeFiles/edit_cache.dir
+/home/ilnur-islamov/Calculator/calculator/build/_deps/mathlib-build/CMakeFiles/rebuild_cache.dir
+/home/ilnur-islamov/Calculator/calculator/build/_deps/mathlib-build/CMakeFiles/list_install_components.dir
+/home/ilnur-islamov/Calculator/calculator/build/_deps/mathlib-build/CMakeFiles/install.dir
+/home/ilnur-islamov/Calculator/calculator/build/_deps/mathlib-build/CMakeFiles/install/local.dir
+/home/ilnur-islamov/Calculator/calculator/build/_deps/mathlib-build/CMakeFiles/install/strip.dir
