@@ -1,10 +1,10 @@
 #include "runner.h"
-#include "parser.h"
-#include "printer.h"
 #include "calculator.h"
 #include "checker.h"
+#include "parser.h"
+#include "printer.h"
 
-void run(int argc, char** argv) {
+void run(int argc, char **argv) {
 
   Data data{0};
 
@@ -12,16 +12,14 @@ void run(int argc, char** argv) {
 
   parse(argc, argv, &data);
 
-  if (data.op == 'h')
-    {
-        help();
-        return;
-    }
+  if (data.op == 'h') {
+    help();
+    return;
+  }
 
-
-  if (!error) { error = calculate(&data); }
+  if (!error) {
+    error = calculate(&data);
+  }
 
   print(&data, error);
-
-
 }

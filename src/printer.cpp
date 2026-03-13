@@ -2,12 +2,14 @@
 
 #include "printer.h"
 
-void print(Data* data, int error) {
+void print(Data *data, int error) {
 
-  if (error) { std::cout << "Error" << std::endl; return; }
+  if (error) {
+    std::cout << "Error" << std::endl;
+    return;
+  }
 
   std::cout << "Result = " << data->result << std::endl;
-
 }
 
 void help() {
@@ -24,5 +26,4 @@ void help() {
   std::cout << "Деление (/)" << std::endl;
   std::cout << "Возведение в степень (^)" << std::endl;
   std::cout << "Факториал (!)" << std::endl;
-
 }

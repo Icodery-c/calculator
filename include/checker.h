@@ -2,4 +2,4 @@
 
 #include "data.h"
 
-int check(Data* data);
+int check(Data *data);

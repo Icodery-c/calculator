@@ -1,9 +1,9 @@
-#include <unistd.h>
 #include <stdlib.h>
+#include <unistd.h>
 
 #include "parser.h"
 
-void parse(int argc, char** argv, Data* data) {
+void parse(int argc, char **argv, Data *data) {
 
   int opt;
 
@@ -11,23 +11,21 @@ void parse(int argc, char** argv, Data* data) {
 
     switch (opt) {
 
-      case 'a':
-        data->num1 = atoi(optarg);
-        break;
+    case 'a':
+      data->num1 = atoi(optarg);
+      break;
 
-      case 'b':
-        data->num2 = atoi(optarg);
-        break;
+    case 'b':
+      data->num2 = atoi(optarg);
+      break;
 
-      case 'o':
-        data->op = optarg[0];
-        break;
+    case 'o':
+      data->op = optarg[0];
+      break;
 
-      case 'h':
-        data->op = 'h';
-        break;
-
+    case 'h':
+      data->op = 'h';
+      break;
     }
   }
-
 }

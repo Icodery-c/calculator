@@ -2,4 +2,4 @@
 
 #include "data.h"
 
-int calculate(Data* data);
+int calculate(Data *data);

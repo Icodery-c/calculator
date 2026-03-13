@@ -4,6 +4,31 @@ project(calculator)
 
 include(FetchContent)
 
+find_program(CLANG_TIDY clang-tidy)
+
+if(CLANG_TIDY)
+    set(CMAKE_CXX_CLAND_TIDY ${CLANG_TIDY})
+endif()
+
+find_program(CLANG_FORMAT clang-format)
+
+file(GLOB_RECURSE ALL_SOURCE_FILES
+
+    src/*.cpp
+    include/*.h
+
+)
+
+if(CLANG_FORMAT)
+
+    add_custom_target(
+
+	format
+	COMMAND ${CLANG_FORMAT} -i ${ALL_SOURCE_FILES}
+
+	)
+endif()
+
 FetchContent_Declare(
 
   mathlib

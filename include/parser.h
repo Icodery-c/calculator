@@ -2,4 +2,4 @@
 
 #include "data.h"
 
-void parse(int argc, char** argv, Data* data);
+void parse(int argc, char **argv, Data *data);

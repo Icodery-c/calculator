@@ -6,5 +6,4 @@ struct Data {
   int num2;
   char op;
   int result;
-
 };
